@@ -146,7 +146,7 @@ Verify `commands.jobRerun` (`job resume` vs `job run`) with `agentia cicd job --
 ```json
 {
   "repoDir": "/path/to/your/salesforce-repo",
-  "users": { "priya@company.com": "U0123ABCD" },
+  "users": { "yaseen@company.com": "U0123ABCD" },
   "allowActions": true,
   "allowedUsers": ["U0123ABCD"],
   "storyOwners": { "US-0000123": "U0123ABCD" },
