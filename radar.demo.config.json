@@ -1,0 +1,10 @@
+{
+  "repoDir": "REPLACE_WITH_PATH_TO_YOUR_SALESFORCE_REPO (use forward slashes on Windows, e.g. C:/work/my-sf-repo)",
+  "users": {
+    "priya@example.com": "U0PRIYA01",
+    "marcus@example.com": "U0MARCUS1"
+  },
+  "notifyOn": ["failure", "success"],
+  "successActions": ["all"],
+  "destinations": { "qa1": "QA1 sandbox" }
+}

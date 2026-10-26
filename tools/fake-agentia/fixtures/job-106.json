@@ -1,0 +1,16 @@
+{
+  "id": "106",
+  "name": "JE-900106",
+  "status": "Error",
+  "template": {
+    "id": "a7sXx0000000001AAA",
+    "name": "SFDX Deploy",
+    "steps": []
+  },
+  "context": "<a href=\"/a89Xx0000000104\" target=\"_self\">Promotion: P-9106</a>",
+  "dataJson": "{\n  \"userStoryBranches\": [\n    \"feature/US-0000777\"\n  ],\n  \"promotionBranchName\": \"promotion/P-9106\",\n  \"destinationBranchName\": \"qa-demo\",\n  \"deploymentDryRun\": false,\n  \"action\": \"PromotionDeployment\",\n  \"promotionId\": \"a89Xx0000000106AAA\",\n  \"userStoryIds\": [\n    \"a93Xx0000000777AAA\"\n  ]\n}",
+  "errorMessage": "Metadata Validation - ApexClass:BillingHandler:No such column 'Discount__c' on entity 'ACME_Invoice__c'. If you are attempting to use a custom field, be sure to append the '__c' after the custom field name.\nApexClass:BillingHandler:Variable does not exist: Discount__c\nApexClass:BillingHandlerTest:Field does not exist: Rate__c on ACME_Plan__c\nApexClass:BillingHandlerTest:Field does not exist: Rate__c on ACME_Plan__c\nApexClass:BillingHandler:Field does not exist: Status on Account",
+  "createdDate": "2026-01-01T12:00:00Z",
+  "lastModifiedDate": "2026-01-01T12:02:00Z",
+  "steps": []
+}

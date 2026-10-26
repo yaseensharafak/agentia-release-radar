@@ -1,0 +1,42 @@
+{
+  "data": [
+    {
+      "Level": "INFO",
+      "Category": "Copado Info",
+      "AdditionalInformation": "",
+      "Message": "Fetching promotion/P-DEMO"
+    },
+    {
+      "Level": "INFO",
+      "Category": "Copado Info",
+      "AdditionalInformation": "",
+      "Message": "Checking out promotion/P-DEMO branch"
+    },
+    {
+      "Level": "INFO",
+      "Category": "Copado Info",
+      "AdditionalInformation": "",
+      "Message": "START -Salesforce- Deploying Promotion Changes"
+    },
+    {
+      "Level": "INFO",
+      "Category": "Copado Info",
+      "AdditionalInformation": "",
+      "Message": "Finding test classes for validation"
+    },
+    {
+      "Level": "ERROR",
+      "Category": "Metadata Validation",
+      "AdditionalInformation": "",
+      "Message": "ApexClass:InvoiceSyncHandler:No such column 'Billing_Plan__c' on entity 'ACME_Invoice__c'. If you are attempting to use a custom field, be sure to append the '__c' after the custom field name. Please reference your WSDL or the describe call for the appropriate names.\nApexClass:InvoiceSyncHandler:Variable does not exist: Billing_Plan__c\nApexClass:InvoiceSyncHandler:No such column 'Outstanding_Amount__c' on entity 'ACME_Billing_Plan__c'. If you are attempting to use a custom field, be sure to append the '__c' after the custom field name. Please reference your WSDL or the describe call for the appropriate names.\nApexClass:InvoiceSyncHandler:Variable does not exist: Outstanding_Amount__c\nApexClass:InvoiceSyncHandler:Variable does not exist: LegacyNotifier\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Due_On__c on ACME_Installment__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Due_On__c on ACME_Installment__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Due_On__c on ACME_Installment__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Due_On__c on ACME_Installment__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Due_On__c on ACME_Installment__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Due_On__c on ACME_Installment__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Due_On__c on ACME_Installment__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Due_On__c on ACME_Installment__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Due_On__c on ACME_Installment__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Due_On__c on ACME_Installment__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Due_On__c on ACME_Installment__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Due_On__c on ACME_Installment__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Outstanding_Amount__c on ACME_Billing_Plan__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Outstanding_Amount__c on ACME_Billing_Plan__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Outstanding_Amount__c on ACME_Billing_Plan__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Outstanding_Amount__c on ACME_Billing_Plan__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Outstanding_Amount__c on ACME_Billing_Plan__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Outstanding_Amount__c on ACME_Billing_Plan__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Outstanding_Amount__c on ACME_Billing_Plan__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Outstanding_Amount__c on ACME_Billing_Plan__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Outstanding_Amount__c on ACME_Billing_Plan__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Billing_Plan__c on ACME_Invoice__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Billing_Plan__c on ACME_Invoice__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Billing_Plan__c on ACME_Invoice__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Billing_Plan__c on ACME_Invoice__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Billing_Plan__c on ACME_Invoice__c\nApexClass:InvoiceSyncHandlerTest:Field does not exist: Billing_Plan__c on ACME_Invoice__c\nApexClass:InvoiceSyncHandlerTest:SELECT Outstanding_Amount__c FROM ACME_Billing_Plan__c\n       ^\nERROR at Row:1:Column:8\nNo such column 'Outstanding_Amount__c' on entity 'ACME_Billing_Plan__c'. If you are attempting to use a custom field, be sure to append the '__c' after the custom field name. Please reference your WSDL or the describe call for the appropriate names."
+    }
+  ],
+  "columns": [
+    {
+      "label": "Level",
+      "fieldName": "Level"
+    }
+  ],
+  "header": "Result Viewer",
+  "headerIcon": "standard:logging"
+}

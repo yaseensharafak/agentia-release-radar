@@ -1,0 +1,20 @@
+node_modules/
+dist/
+radar.config.json
+.env
+failed-job*.json
+*.log
+
+# real Copado artifacts contain repo names, org users and class names: never commit them
+ValidationResult.json
+ResultViewer.json
+Function_Logs_for_*.txt
+my-evidence/
+.denylist.local
+
+# local setup and agent-managed files (not part of the project)
+.agents/
+.agentia/
+AGENTS.md
+radar.config.json
+*.pem

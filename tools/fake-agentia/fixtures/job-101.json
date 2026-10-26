@@ -1,0 +1,14 @@
+{
+  "id": "101",
+  "name": "Validate US-0000142 to UAT",
+  "status": "Error",
+  "promotionName": "P-0000077",
+  "steps": [
+    { "name": "Local quality gates", "status": "Successful", "log": "All gates passed." },
+    {
+      "name": "Deploy (check-only) to UAT",
+      "status": "Error",
+      "log": "Deploying metadata to UAT (check only)...\nComponent Failures [2]\nforce-app/main/default/classes/PaymentCalculator.cls  Method does not exist or incorrect signature: void countNewMonths() from the type PaymentHelper (45:13)\nforce-app/main/default/classes/PaymentHelper.cls  Variable does not exist: mockPaymentId (12:9)\nTest Failures [1]\nPaymentCalculatorTest.testMonthlyBenefit -- System.AssertException: Assertion Failed: Expected: 450, Actual: 420 -- Class.PaymentCalculatorTest.testMonthlyBenefit: line 31, column 1\nAverage test coverage across all Apex Classes and Triggers is 62%, at least 75% required\nIn field: fieldPermissions - no CustomField named Claim__c.Appeal_Status__c found\nauth header Bearer abcdef1234567890abcdef1234567890 sent by user dev@example.com\nDeployment failed."
+    }
+  ]
+}

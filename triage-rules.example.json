@@ -1,0 +1,7 @@
+[
+  {
+    "pattern": "CUSTOM-ERR-(?<line>\\d+):\\s*(?<component>\\w+)\\s*(?<message>.+)$",
+    "category": "validation",
+    "flags": "i"
+  }
+]

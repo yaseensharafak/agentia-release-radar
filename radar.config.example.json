@@ -1,0 +1,10 @@
+{
+  "defaultOwner": "U0XXXXXXXXX",
+  "allowedUsers": ["U0XXXXXXXXX"],
+  "allowActions": true,
+  "allowCommitMissing": true,
+  "liveActions": ["commit", "rerun"],
+  "pullRequestLinks": true,
+  "orgUrl": "https://your-org.my.salesforce.com",
+  "commands": { "revalidate": null }
+}

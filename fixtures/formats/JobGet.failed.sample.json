@@ -1,0 +1,41 @@
+{
+  "result": {
+    "id": "a7q0003Xx000000AAA",
+    "name": "JE-900003",
+    "status": "Error",
+    "template": {
+      "id": "a7sXx0000000001AAA",
+      "name": "SFDX Deploy",
+      "steps": []
+    },
+    "context": "<a href=\"/a89Xx0000000001\" target=\"_self\">Promotion: P-8990</a>",
+    "parentId": "a7YXx0000000001",
+    "dataJson": "{\n  \"userStoryIds\": [\n    \"a93Xx0000000001AAA\"\n  ],\n  \"userStoryBranches\": [\n    \"feature/US-0000904\"\n  ],\n  \"transactionId\": \"a89Xx0000000001AAA\",\n  \"promotionId\": \"a89Xx0000000001AAA\",\n  \"promotionBranchName\": \"promotion/P-8990\",\n  \"destinationBranchName\": \"qa-demo\",\n  \"deploymentDryRun\": false,\n  \"action\": \"PromotionDeployment\"\n}",
+    "createdDate": "2026-01-01T12:00:00Z",
+    "lastModifiedDate": "2026-01-01T12:05:00Z",
+    "steps": [
+      {
+        "id": "a7rXx0000000001AAA",
+        "name": "Deploy",
+        "status": "Failed",
+        "type": "Function",
+        "result": {
+          "id": "a8IXx0000000003AAA",
+          "name": "R900003",
+          "status": "Failed",
+          "progressStatus": "Error",
+          "errorMessage": "Metadata Deployment - SyncSchedulerTest-testExecute-System.DmlException: Insert failed. First exception on row 0; first error: INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST, bad value for restricted picklist field: Platinum: [Tier__c]; Please check the logs for details."
+        }
+      },
+      {
+        "id": "a7rXx0000000002AAA",
+        "name": "Activate Deployed Datakits",
+        "status": "Pending",
+        "type": "Function"
+      }
+    ],
+    "errorMessage": "Metadata Deployment - SyncSchedulerTest-testExecute-System.DmlException: Insert failed. First exception on row 0; first error: INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST, bad value for restricted picklist field: Platinum: [Tier__c]; Please check the logs for details."
+  },
+  "status": "success",
+  "transactionId": "t-1"
+}

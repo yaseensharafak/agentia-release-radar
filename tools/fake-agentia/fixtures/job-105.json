@@ -1,0 +1,16 @@
+{
+  "id": "105",
+  "name": "JE-900105",
+  "status": "Error",
+  "template": {
+    "id": "a7sXx0000000001AAA",
+    "name": "SFDX Deploy",
+    "steps": []
+  },
+  "context": "<a href=\"/a89Xx0000000105\" target=\"_self\">Promotion: P-9105</a>",
+  "dataJson": "{\n  \"userStoryBranches\": [\n    \"feature/US-0000888\"\n  ],\n  \"promotionBranchName\": \"promotion/P-9105\",\n  \"destinationBranchName\": \"qa-demo\",\n  \"deploymentDryRun\": true,\n  \"action\": \"PromotionDeployment\",\n  \"promotionId\": \"a89Xx0000000105AAA\",\n  \"userStoryIds\": [\n    \"a93Xx0000000888AAA\"\n  ]\n}",
+  "errorMessage": "Metadata Validation - ApexClass:PricingHandler:Variable does not exist: DiscountCalculatorService",
+  "createdDate": "2026-01-01T12:00:00Z",
+  "lastModifiedDate": "2026-01-01T12:02:00Z",
+  "steps": []
+}

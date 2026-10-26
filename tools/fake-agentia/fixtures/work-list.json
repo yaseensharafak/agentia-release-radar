@@ -1,0 +1,25 @@
+[
+  {
+    "id": "a93Xx0000000001AAA",
+    "name": "US-0000777",
+    "title": "Invoice sync",
+    "status": "In Progress",
+    "developer": {
+      "name": "Dana Developer",
+      "email": "dana@example.com"
+    }
+  },
+  {
+    "id": "a93Xx0000000002AAA",
+    "name": "US-0000778",
+    "title": "Plan rates",
+    "status": "In Progress",
+    "developer": "Sam Developer"
+  },
+  {
+    "id": "a93Xx0000000003AAA",
+    "name": "US-0000779",
+    "title": "No developer field",
+    "status": "New"
+  }
+]

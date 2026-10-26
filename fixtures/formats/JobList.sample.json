@@ -1,0 +1,170 @@
+{
+  "result": {
+    "data": [
+      {
+        "id": "a7q0009Xx000000AAA",
+        "name": "JE-900009",
+        "status": "In Progress",
+        "template": {
+          "id": "a7sXx0000000001AAA",
+          "name": "SFDX Deploy",
+          "steps": []
+        },
+        "context": "<a href=\"/a89Xx0000000001\" target=\"_self\">Promotion: P-9001</a>",
+        "parentId": "a7YXx0000000001",
+        "dataJson": "{\n  \"userStoryIds\": [\n    \"a93Xx0000000001AAA\"\n  ],\n  \"userStoryBranches\": [\n    \"feature/US-0000901\"\n  ],\n  \"transactionId\": \"a89Xx0000000001AAA\",\n  \"promotionId\": \"a89Xx0000000001AAA\",\n  \"promotionBranchName\": \"promotion/P-9001\",\n  \"destinationBranchName\": \"qa-demo\",\n  \"deploymentDryRun\": true,\n  \"action\": \"PromotionDeployment\"\n}",
+        "createdDate": "2026-01-01T12:00:00Z",
+        "lastModifiedDate": "2026-01-01T12:05:00Z",
+        "steps": []
+      },
+      {
+        "id": "a7q0010Xx000000AAA",
+        "name": "JE-900010",
+        "status": "Successful",
+        "template": {
+          "id": "a7sXx0000000001AAA",
+          "name": "SFDX Deploy",
+          "steps": []
+        },
+        "context": "<a href=\"/a89Xx0000000001\" target=\"_self\">Promotion: P-9010</a>",
+        "parentId": "a7YXx0000000001",
+        "dataJson": "{\n  \"userStoryIds\": [\n    \"a93Xx0000000001AAA\"\n  ],\n  \"userStoryBranches\": [\n    \"feature/US-0000906\",\n    \"feature/US-0000907\"\n  ],\n  \"transactionId\": \"a89Xx0000000001AAA\",\n  \"promotionId\": \"a89Xx0000000010AAA\",\n  \"promotionBranchName\": \"promotion/P-9010\",\n  \"destinationBranchName\": \"qa-demo\",\n  \"deploymentDryRun\": false,\n  \"action\": \"PromotionDeployment\"\n}",
+        "createdDate": "2026-01-01T12:00:00Z",
+        "lastModifiedDate": "2026-01-01T12:03:12Z",
+        "steps": []
+      },
+      {
+        "id": "a7q0008Xx000000AAA",
+        "name": "JE-900008",
+        "status": "Successful",
+        "template": {
+          "id": "a7sXx0000000001AAA",
+          "name": "SFDX Deploy",
+          "steps": []
+        },
+        "context": "<a href=\"/a89Xx0000000001\" target=\"_self\">Promotion: P-9000</a>",
+        "parentId": "a7YXx0000000001",
+        "dataJson": "{\n  \"userStoryIds\": [\n    \"a93Xx0000000001AAA\"\n  ],\n  \"userStoryBranches\": [\n    \"feature/US-0000902\"\n  ],\n  \"transactionId\": \"a89Xx0000000001AAA\",\n  \"promotionId\": \"a89Xx0000000009AAA\",\n  \"promotionBranchName\": \"promotion/P-9000\",\n  \"destinationBranchName\": \"qa-demo\",\n  \"deploymentDryRun\": true,\n  \"action\": \"PromotionDeployment\"\n}",
+        "createdDate": "2026-01-01T12:00:00Z",
+        "lastModifiedDate": "2026-01-01T12:01:05Z",
+        "steps": []
+      },
+      {
+        "id": "a7q0007Xx000000AAA",
+        "name": "JE-900007",
+        "status": "Error",
+        "template": {
+          "id": "a7sXx0000000001AAA",
+          "name": "SFDX Deploy",
+          "steps": []
+        },
+        "context": "<a href=\"/a89Xx0000000001\" target=\"_self\">Promotion: P-8999</a>",
+        "parentId": "a7YXx0000000001",
+        "dataJson": "{\n  \"userStoryIds\": [\n    \"a93Xx0000000001AAA\"\n  ],\n  \"userStoryBranches\": [\n    \"feature/US-0000903\"\n  ],\n  \"transactionId\": \"a89Xx0000000001AAA\",\n  \"promotionId\": \"a89Xx0000000001AAA\",\n  \"promotionBranchName\": \"promotion/P-8999\",\n  \"destinationBranchName\": \"qa-demo\",\n  \"deploymentDryRun\": true,\n  \"action\": \"PromotionDeployment\"\n}",
+        "createdDate": "2026-01-01T12:00:00Z",
+        "lastModifiedDate": "2026-01-01T12:05:00Z",
+        "steps": [],
+        "errorMessage": "Metadata Validation - LightningComponentBundle:orderSummaryPanel:Unable to find Apex action class referenced as 'OrderPanelController'.; Please check the logs for details."
+      },
+      {
+        "id": "a7q0006Xx000000AAA",
+        "name": "JE-900006",
+        "status": "Successful",
+        "template": {
+          "id": "a7sXx0000000002AAA",
+          "name": "SFDX Promote",
+          "steps": []
+        },
+        "context": "<a href=\"/a89Xx0000000001\" target=\"_self\">Promotion: P-9000</a>",
+        "parentId": "a7YXx0000000001",
+        "dataJson": "{\n  \"userStoryIds\": [\n    \"a93Xx0000000001AAA\"\n  ],\n  \"userStoryBranches\": [\n    \"feature/US-0000902\"\n  ],\n  \"transactionId\": \"a89Xx0000000001AAA\",\n  \"promotionId\": \"a89Xx0000000001AAA\",\n  \"promotionBranchName\": \"promotion/P-9000\",\n  \"destinationBranchName\": \"qa-demo\",\n  \"deploymentDryRun\": true,\n  \"action\": \"Promotion\",\n  \"isBackPromotion\": false\n}",
+        "createdDate": "2026-01-01T12:00:00Z",
+        "lastModifiedDate": "2026-01-01T12:05:00Z",
+        "steps": []
+      },
+      {
+        "id": "a7q0005Xx000000AAA",
+        "name": "JE-900005",
+        "status": "Successful",
+        "template": {
+          "id": "a7sXx0000000003AAA",
+          "name": "Run PMD",
+          "steps": []
+        },
+        "context": "<a href=\"/a89Xx0000000001\" target=\"_self\">Promotion: P-9000</a>",
+        "parentId": "a7YXx0000000001",
+        "dataJson": "{\n  \"userStoryIds\": [\n    \"a93Xx0000000001AAA\"\n  ],\n  \"userStoryBranches\": [\n    \"feature/US-0000902\"\n  ],\n  \"transactionId\": \"a89Xx0000000001AAA\",\n  \"promotionId\": \"a89Xx0000000001AAA\",\n  \"promotionBranchName\": \"promotion/P-9000\",\n  \"destinationBranchName\": \"qa-demo\",\n  \"deploymentDryRun\": true,\n  \"action\": \"Test\",\n  \"resultIds\": [\n    \"a8IXx0000000005AAA\"\n  ]\n}",
+        "createdDate": "2026-01-01T12:00:00Z",
+        "lastModifiedDate": "2026-01-01T12:05:00Z",
+        "steps": []
+      },
+      {
+        "id": "a7q0004Xx000000AAA",
+        "name": "JE-900004",
+        "status": "Successful",
+        "template": {
+          "id": "a7sXx0000000004AAA",
+          "name": "SFDX Commit",
+          "steps": []
+        },
+        "context": "<a href=\"/a89Xx0000000001\" target=\"_self\">Promotion: P-9000</a>",
+        "parentId": "a7YXx0000000001",
+        "dataJson": "{\n  \"userStoryIds\": [\n    \"a93Xx0000000001AAA\"\n  ],\n  \"userStoryBranches\": [\n    \"feature/US-0000902\"\n  ],\n  \"transactionId\": \"a89Xx0000000001AAA\",\n  \"promotionId\": \"a89Xx0000000001AAA\",\n  \"promotionBranchName\": \"promotion/P-9000\",\n  \"destinationBranchName\": \"qa-demo\",\n  \"deploymentDryRun\": true,\n  \"action\": \"Commit\"\n}",
+        "createdDate": "2026-01-01T12:00:00Z",
+        "lastModifiedDate": "2026-01-01T12:05:00Z",
+        "steps": []
+      },
+      {
+        "id": "a7q0003Xx000000AAA",
+        "name": "JE-900003",
+        "status": "Error",
+        "template": {
+          "id": "a7sXx0000000001AAA",
+          "name": "SFDX Deploy",
+          "steps": []
+        },
+        "context": "<a href=\"/a89Xx0000000001\" target=\"_self\">Promotion: P-8990</a>",
+        "parentId": "a7YXx0000000001",
+        "dataJson": "{\n  \"userStoryIds\": [\n    \"a93Xx0000000001AAA\"\n  ],\n  \"userStoryBranches\": [\n    \"feature/US-0000904\"\n  ],\n  \"transactionId\": \"a89Xx0000000001AAA\",\n  \"promotionId\": \"a89Xx0000000001AAA\",\n  \"promotionBranchName\": \"promotion/P-8990\",\n  \"destinationBranchName\": \"qa-demo\",\n  \"deploymentDryRun\": false,\n  \"action\": \"PromotionDeployment\"\n}",
+        "createdDate": "2026-01-01T12:00:00Z",
+        "lastModifiedDate": "2026-01-01T12:05:00Z",
+        "steps": [],
+        "errorMessage": "Metadata Deployment - SyncSchedulerTest-testExecute-System.DmlException: Insert failed. First exception on row 0; first error: INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST, bad value for restricted picklist field: Platinum: [Tier__c]; Please check the logs for details."
+      },
+      {
+        "id": "a7q0002Xx000000AAA",
+        "name": "JE-900002",
+        "status": "Error",
+        "template": {
+          "id": "a7sXx0000000005AAA",
+          "name": "SFDX Run Apex Tests",
+          "steps": []
+        },
+        "context": "<a href=\"/a89Xx0000000001\" target=\"_self\">Promotion: P-8990</a>",
+        "parentId": "a7YXx0000000001",
+        "dataJson": "{\n  \"userStoryIds\": [\n    \"a93Xx0000000001AAA\"\n  ],\n  \"userStoryBranches\": [\n    \"feature/US-0000904\"\n  ],\n  \"transactionId\": \"a89Xx0000000001AAA\",\n  \"promotionId\": \"a89Xx0000000001AAA\",\n  \"promotionBranchName\": \"promotion/P-8990\",\n  \"destinationBranchName\": \"qa-demo\",\n  \"deploymentDryRun\": true,\n  \"action\": \"Test\",\n  \"resultIds\": [\n    \"a8IXx0000000002AAA\"\n  ],\n  \"qualityCheck\": \"a8CXx0000000002AAA\"\n}",
+        "createdDate": "2026-01-01T12:00:00Z",
+        "lastModifiedDate": "2026-01-01T12:05:00Z",
+        "steps": [],
+        "errorMessage": "- Your user story code coverage is below the expected threshold of 90%. Please increase code coverage and execute the test run again."
+      },
+      {
+        "id": "a7q0001Xx000000AAA",
+        "name": "JE-900001",
+        "status": "Error",
+        "template": {
+          "id": "a7sXx0000000005AAA",
+          "name": "SFDX Run Apex Tests",
+          "steps": []
+        },
+        "context": "<a href=\"/a89Xx0000000001\" target=\"_self\">Promotion: P-8980</a>",
+        "parentId": "a7YXx0000000001",
+        "dataJson": "{\n  \"userStoryIds\": [\n    \"a93Xx0000000001AAA\"\n  ],\n  \"userStoryBranches\": [\n    \"feature/US-0000905\"\n  ],\n  \"transactionId\": \"a89Xx0000000001AAA\",\n  \"promotionId\": \"a89Xx0000000001AAA\",\n  \"promotionBranchName\": \"promotion/P-8980\",\n  \"destinationBranchName\": \"qa-demo\",\n  \"deploymentDryRun\": true,\n  \"action\": \"Test\",\n  \"resultIds\": [\n    \"a8IXx0000000001AAA\"\n  ]\n}",
+        "createdDate": "2026-01-01T12:00:00Z",
+        "lastModifiedDate": "2026-01-01T12:05:00Z",
+        "steps": [],
+        "errorMessage": "- No unit test method can fail. Please update your code to make sure that no method is failing."
+      }
+    ]
+  }
+}
